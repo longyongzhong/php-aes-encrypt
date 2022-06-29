@@ -1,0 +1,19 @@
+{
+    "name": "longyongzhong/php-aes-encrypt",
+    "description": "php aes encrypt",
+    "type": "library",
+    "authors": [
+        {
+            "name": "basil",
+            "email": "15813246678@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpAesEncrypt\\": "src/"
+        }
+    },
+    "require": {
+        "ext-openssl": "*"
+    }
+}
